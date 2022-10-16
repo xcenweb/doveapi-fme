@@ -1,0 +1,30 @@
+{
+    "name": "xcenweb/doveapi-fme",
+    "description": "doveapi fme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xcenweb",
+            "email": "xcenweb@qq.com",
+            "homepage": "http://dove.xcenadmin.top"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.3"
+    },
+    "autoload": {
+		"files": [
+		    "src/fmeAutoload.php",
+		]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
